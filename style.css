@@ -1,183 +1,97 @@
-.main{
-    background-color: rgb(13, 60, 147);
-    height: 500px;
-}
-
-.main2{
-    background-color: rgb(13, 60, 147);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.main4{
-  background-color: rgb(13, 60, 147);
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
+ /* start header  */
 header{
-    background-color: rgb(13, 60, 147);
+  background-color: rgb(13, 60, 147);
+  width: 100v;
+  height: 20vh;
 }
 
 .logo{
-    height: 100px;
+    height: 100%;
     border-radius: 50%;
 }
 
+/* start hero srction  */
+
+.main{
+    background-color: rgb(13, 60, 147);
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: auto auto;
+    gap: 2px;
+}
 
 .b1{
-    width: 49%;
-    height: 100%;
-    position: relative;
-    justify-content: center;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
 }
 a{
+text-align: center;
+}
+
+.boxmain{
+  display: flex;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  gap:10px;
+  /* justify-content:space-around; */
+}
+
+.boxh{
+  height: 20vh;
+  width: 30vb; 
+  place-items: center;
   text-align: center;
+  border: 2px solid whitesmoke;
+  margin-bottom: 10px;
 }
+
 .b2{
-    width: 49%;
-    height: 70%;
-    border: 2px solid white;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
-.b2 img{
-    width: 100%;
-    margin-top: 15px;
-    margin-left: 20pxpx;
-    border-radius: 20px;
-}
-
-.b2 button{
-    margin-top: 15px;
-    padding: 5px;
-    width: 50%;
-    background-color: rgb(13, 60, 147);
-    border: 2px solid aliceblue;
-    border-radius: 5px;
-    color: aliceblue;
-}
-
-button.btn{
-    background-color: gold;
-    border-radius: 5px;
-}
-button.btn:hover{
-    background-color:burlywood;
-}
-
-.row{
-    width: 100%;
-    height: 500px;
-    
-}
-
-
-.insidebox1{
-    margin: auto;
-    width: 95%;
-    height: 85%;
-    padding: 2px;
-    
-    
-}
-
-.insidebox2{
-    margin: auto;
-    background-color:blanchedalmond;
-    width: 100%;
-    height: 80%;
-    padding: 2px;
-    border-radius: 20px;
-    border: 2px solid;
-    
-    
-}
-
-.font-weight-bold{
-    font-weight: bold;
-}
-
-.insidebox2 ul {
-    list-style-type: disclosure-closed;
-}
-
-.insidebox1 img{
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.insidebox2 ul li {
-    margin-bottom: 5px;
-}
-
-.found{
-    color: bisque;
-    
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid white; */
+  position:-ms-page;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 
 
+/* start about section  */
 
-
-
-/* general styling */
-
-.countdown{
-    align-items: center;
+.main2{
+  background-color: rgb(13, 60, 147);
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: auto auto;
+  gap: 2px;
 }
+
+.b3{
+  width: 50%;
+  height: 100%;
+  position:-ms-page;
   
- .countdown li {
-    display: inline-block;
-    font-size: 1.5em;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-    align-items: center;
-  }
   
-  .countdown li span {
-    display: block;
-    font-size: 4.5rem;
-  }
+}
 
-  .countdown ul li span{
-    color: white;
-  }
+.b4{
+  width: 50%;
+  height: 100%;
+  background-color: bisque;
+  position:-ms-page;
+
   
-  @media all and (max-width: 768px) {
-    .countdown h1 {
-      font-size: calc(1.5rem * var(--smaller));
-    }
-    
-    .countdown li {
-      font-size: calc(1.125rem * var(--smaller));
-    }
-    
-    li span {
-      font-size: calc(3.375rem * var(--smaller));
-    }
-  }
+}
 
-
-  .box3{
-    height: 300px;
-    border: 2px solid;
-  }
-
-  .box4{
-    height: 300px;
-    border: 2px solid;
-  }
-
-  .box4 span{
-    font-size: 20px;
-    font-weight: bold;
-    color: gold;
-  }
-
-
+/* start icon section  */
+.main3{
+  height: 100vh;
+  width: 100vw;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
 
 .but{
   width: 100%;
@@ -190,7 +104,7 @@ button.btn:hover{
 }
 
 .box{
-  height: 200px;
+  height: 30vh;
   width: 300px;
   display: grid;
   place-items: center;
@@ -198,25 +112,88 @@ button.btn:hover{
   /* background-color: aquamarine; */
 }
 
-.boxmain{
-  display: flex;
+/* start Timer section  */
+.main4{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(13, 60, 147);
+}
+
+.countdown{
   align-items: center;
-  justify-content:space-around;
 }
 
-.boxh{
-  height: 100px;
-  width: 200px;
-  place-items: center;
-  text-align: center;
-  border: 2px solid whitesmoke;
-  margin-bottom: 10px;
+.countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.countdown li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.countdown ul li span{
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .countdown h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  .countdown li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+/* start course offer section  */
+.main5{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(13, 60, 147);
+}
+
+.box3{
+  height: 300px;
+  border: 2px solid;
+}
+
+.box4{
+  height: 300px;
+  border: 2px solid;
+}
+
+.box4 span{
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;
+}
+
+/* buttons  */
+
+button.btn{
+    background-color: gold;
+}
+button.btn:hover{
+    background-color:burlywood;
 }
 
 
-
+/* atart main6  */
 /* .slide-up-form */
-
+.main6{
+  height: 50vh;
+  width: 40vw;
+}
 .slide-up-form {
   position: fixed;
   bottom: -400px;
